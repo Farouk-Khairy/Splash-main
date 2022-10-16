@@ -1,0 +1,46 @@
+{
+  "courses": [
+    {
+      "img": "media/img/ps.png",
+      "title": "Photoshop",
+      "url": "pages/ps.html"
+    },
+    {
+      "img": "media/img/ai.png",
+      "title": "Illustrator",
+      "url": "pages/ai.html"
+    },
+    {
+      "img": "media/img/id.png",
+      "title": "In Design",
+      "url": "pages/id.html"
+    }
+  ],
+  "news": [
+    {
+      "img": "media/img/golden-ratio.jpg",
+      "title": "النسبة الذهبية",
+      "url": "pages/golden-ratio.html"
+    },
+    {
+      "img": "media/img/color.jpg",
+      "title": "قاعدة الألوان",
+      "url": "pages/colors.html"
+    },
+    {
+      "img": "media/img/graph.jpg",
+      "title": "التصميم الجرافيكي",
+      "url": "https://mawdoo3.com/%D9%85%D8%A7_%D9%85%D8%B9%D9%86%D9%89_%D9%85%D8%B5%D9%85%D9%85_%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%83"
+    },
+    {
+      "img": "media/img/graph2.jpg",
+      "title": "ما هو فن الجرافيك",
+      "url": "https://mawdoo3.com/%D9%85%D8%A7_%D9%87%D9%88_%D9%81%D9%86_%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%83"
+    },
+    {
+      "img": "media/img/graphic-design.jpg",
+      "title": "ما هو فن الجرافيك",
+      "url": "http://salahebeed.blogspot.com/2017/02/graphic-design.html?m=1"
+    }
+  ]
+}

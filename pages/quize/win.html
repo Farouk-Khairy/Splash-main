@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>win</title>
+    <link rel="stylesheet" href="../../sass/maincss/result.css" />
+    <style>
+      .container {
+        margin: auto;
+        width: 1000px;
+        position: relative;
+      }
+      img {
+        width: 1000px;
+      }
+      h1 {
+        position: absolute;
+        top: 365px;
+        left: 80px;
+      }
+      h2 {
+        position: absolute;
+        top: 595px;
+        left: 613px;
+        font-size: 14px;
+      }
+      @media (max-width: 450px) {
+        img {
+          width: 370px;
+        }
+        h1 {
+          top: 130px;
+          left: 30px;
+          font-size: 14px;
+        }
+        h2 {
+          position: absolute;
+          top: 215px;
+          left: 223px;
+          font-size: 7px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="../../media/img/certeficate.jpg" alt="win" />
+      <h1></h1>
+      <h2></h2>
+    </div>
+    <script>
+      let nameHolder = document.querySelector("h1");
+      let dateHolder = document.querySelector("h2");
+      let name = prompt("Type Your Name ...");
+      nameHolder.innerHTML = name;
+      const d = new Date();
+      let day = d.getDate();
+      let m = d.getMonth() + 1;
+      let y = d.getFullYear();
+      dateHolder.innerHTML = `${day}/${m}/${y}`;
+    </script>
+  </body>
+</html>

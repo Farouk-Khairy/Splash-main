@@ -1,0 +1,151 @@
+.nav {
+  background-color: #03318c;
+  padding: 5px 0;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    position: relative;
+    aside {
+      background-color: #024059;
+      width: 20%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 7px;
+      position: relative;
+      z-index: 99;
+      .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        span {
+          display: inline-block;
+          width: 7px;
+          height: 7px;
+          background-color: #000;
+          border-radius: 100%;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          -ms-border-radius: 100%;
+          -o-border-radius: 100%;
+        }
+        h3 {
+          margin: 0 10px;
+          color: #fff;
+        }
+      }
+      ul {
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        li {
+          cursor: pointer;
+          margin: 10px 0;
+          font-weight: 600;
+          color: rgb(255, 255, 255);
+        }
+        a {
+          color: #fff;
+          display: inline-block;
+          font-size: 22px;
+          padding: 5px 30px;
+          margin-top: 20px;
+          border: 1px solid #fff;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+        }
+        a:hover {
+          color: rgb(165, 165, 165);
+          border-color: rgb(165, 165, 165);
+        }
+      }
+      .toggle {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        background-color: #aaa;
+        position: absolute;
+        left: -25px;
+        top: 15px;
+        display: none;
+        i {
+          animation: rotate 3s linear infinite;
+          -webkit-animation: rotate 3s linear infinite;
+        }
+        @keyframes rotate {
+          100% {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+          }
+        }
+      }
+    }
+    .content-holder {
+      width: 80%;
+      height: 100%;
+      padding: 30px 30px 0;
+      background-image: url("../../media/img/background-test.jpg");
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      iframe {
+        width: 89%;
+        height: 500px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+      p {
+        align-self: flex-start;
+      }
+    }
+  }
+}
+footer {
+  padding: 5px 0;
+}
+@media (max-width: 666px) {
+  .body {
+    .content {
+      .content-holder {
+        width: 100%;
+      }
+      aside {
+        position: absolute;
+        width: calc(100% - 25px);
+        right: calc(-100% + 25px);
+        transition: right 0.5s;
+        -webkit-transition: right 0.5s;
+        -moz-transition: right 0.5s;
+        -ms-transition: right 0.5s;
+        -o-transition: right 0.5s;
+        .toggle {
+          display: block;
+        }
+      }
+      aside.active {
+        right: 0;
+      }
+    }
+  }
+}

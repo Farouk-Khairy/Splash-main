@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "companyLogo": "../media/img/cow.jpeg",
+      "companyName": "COW",
+      "companyDescription": "Trading and Investment",
+      "jobLink": "https://www.linkedin.com/jobs/view/3020789655"
+    },
+    {
+      "companyLogo": "../media/img/dentsu.jpeg",
+      "companyName": "Dentsu",
+      "companyDescription": "Advertising Services",
+      "jobLink": "https://www.linkedin.com/jobs/view/3018962265"
+    },
+    {
+      "companyLogo": "../media/img/rawaj.jpeg",
+      "companyName": "Rawaj",
+      "companyDescription": "Human Resources Services",
+      "jobLink": "https://www.linkedin.com/jobs/view/3020540541"
+    },
+    {
+      "companyLogo": "../media/img/jumia.jpeg",
+      "companyName": "Jumia",
+      "companyDescription": "Internet Publishing",
+      "jobLink": "https://www.linkedin.com/jobs/view/2993984027"
+    }
+  ]
+}

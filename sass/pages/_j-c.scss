@@ -1,0 +1,43 @@
+body {
+  background-image: url("../../media/img//background-test.jpg");
+  background-size: cover;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: rgb(39, 39, 39);
+  .nav {
+    background-color: #03318C;
+    padding: 5px 0;
+  }
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    .container {
+      .box {
+        display: flex;
+        margin: 20px 0;
+        padding: 20px;
+        background-color: rgba(240, 255, 255, 0.295);
+        box-shadow: 2.1px 4.2px 4.2px rgba(0, 0, 0, 0.342);
+        a {
+          color: #1b1b1b;
+        }
+        img {
+          width: 70px;
+          margin-left: 30px;
+        }
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+      }
+    }
+
+    footer {
+      padding: 5px 0;
+    }
+  }
+}
